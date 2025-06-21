@@ -1,0 +1,12 @@
+{
+  "keyword_pass": "(?i)\\b(pass|password|pwd|passwd|mima|密码)[\\W_].{0,44}",
+  "keyword_key": "(?i)[\\W_](key|apikey|api_key|accesskey|access_key|secretkey|secret_key|miyao|密钥)[\\W_].{0,44}",
+  "keyword_token": "(?i)\\b(token|bearer|access_token|id_token|refresh_token|linpai|lingpai|令牌).{0,44}",
+  "keyword_secret": "(?i)\\b(secret|mimi|秘密).{0,44}",
+  "keyword_credential": "(?i)\\b(credential|pinju|pingju).{0,44}",
+  "keyword_email": "(?i)\\b(mail|email|youjian|邮件)[\\W_].{0,64}",
+  "keyword_phone": "(?i)\\b(phone|dianhua|电话|電話)[\\W_].{0,20}",
+  "keyword_id_card": "(?i)\\b(id_card|shenfenzheng|shengfenzheng|身份证|身分証).{0,20}",
+  "keyword_address": "(?i)\\b(address|dizhi|地址|住所).{0,100}",
+  "keyword_bank_card": "(?i)\\b(bank_card|yinhangka|yinghangka|银行卡).{0,19}"
+}

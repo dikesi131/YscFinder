@@ -1,0 +1,10 @@
+{
+  "keyword_webshell": "(?i)\\b(webshell|菜刀|蚁剑|冰蝎|WebShell|web_shell|web/shell|web\\\\shell|shell)\\b.{0,50}",
+  "keyword_one_liner_shell": "(?i)\\b(?:eval$|assert$|preg_replace.*\\/e|system$|exec$|passthru$|shell_exec$).*\\$_(POST|GET)\\b",
+  "keyword_reverse_shell": "(?i)\\b(bash.*\\/dev\\/tcp|perl.*reverse|python.*socket|php.*fsockopen|nc.*-z|sh.*exec|反向连接|反弹shell|反彈shell)\\b",
+  "keyword_asp_system": "(?i)\\b(execute\\(|eval\\(|run\\(|wscript\\.shell|shell\\.run|createobject.*wscript)\\b",
+  "keyword_jsp_webshell": "(?i)\\b(eval\\(|Runtime\\.getRuntime\\(|ProcessBuilder\\(|exec)\\b",
+  "keyword_reflect_webshell": "(?i)\\b(ClassLoader.defineClass\\(|Class.forName\\()\\b",
+  "keyword_port_connect_webshell": "(?i)\\b(Socket\\(|ServerSocket\\(|ScheduledExecutorService\\(|connect\\(|bind\\(|listen\\()\\b",
+  "keyword_java_memshell": "(?i)\\b(FilterRegistration|addFilter|ServletRegistration|动态注册|内存马|記憶體馬)\\b"
+}

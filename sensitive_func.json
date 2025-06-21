@@ -1,0 +1,9 @@
+{
+  "keyword_login": "(?i)\\b(login|denglu|登陆|登錄|auth|authenticate|认证|驗證)[\\W_].{0,44}",
+  "keyword_upload": "(?i)\\b(upload|shangchuan|上传|上傳|file_upload|文件上传|檔案上傳)[\\W_].{0,44}",
+  "keyword_download": "(?i)\\b(download|xiazai|下载|下載|file_download|文件下载|檔案下載)[\\W_].{0,44}",
+  "keyword_delete": "(?i)\\b(delete|shanchu|删除|刪除|del|remove|清除|移除)[\\W_].{0,44}",
+  "keyword_reset": "(?i)\\b(reset|重置|重設|reset_password|找回密码|忘记密码)[\\W_].{0,44}",
+  "keyword_debug": "(?i)\\b(debug|调试|調試|test|测试|測試|logging|日志|log)[\\W_].{0,44}",
+  "keyword_exec": "(?i)\\b(exec|execute|eval|shell|cmd|命令执行|命令執行|反弹shell|反彈shell)[\\W_].{0,44}"
+}
